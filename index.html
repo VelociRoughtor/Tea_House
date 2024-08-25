@@ -36,13 +36,66 @@
         .manrope-font {
             font-family: "Manrope", sans-serif;
         }
+
+        /* Colors */
+
+        .dark-1 {
+            color: rgb(28, 28, 28);
+        }
+
+        .dark-3 {
+            color: rgb(119, 119, 119);
+        }
     </style>
 </head>
 
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+<body class="manrope-font">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+
+        <!-- Header section -->
+        <header class="md:flex pt-10 mb-20">
+
+            <!-- Text Content -->
+            <div class="mb-8">
+                <h1 class="text-4xl md:text-7xl dark-1 font-extrabold mb-4 md:mb-8">It's good
+                    <br>
+                    tea time at The
+                    <br>
+                    Tea House
+                </h1>
+                <p class="dark-3 mb-4 md:mb-8 text-sm md:text-lg">Tea and Botanical Solutions Supplier Give Optimum
+                    <br>
+                    Satisfaction To Your Taste Buds.
+                </p>
+                <button
+                    class=" text-sm md:text-xl rounded-[10px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-3 md:p-[18px] text-white font-bold">Explore
+                    More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+
+            <!-- Image Content -->
+            <div class="relative">
+                <!-- Image -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                </div>
+
+                <!-- Card -->
+                <div
+                    class="absolute md:top-80 md:left-16 bg-[#FFFFFF] flex items-center gap-4 rounded-lg drop-shadow w-max py-2 md:py-4 px-3 md:px-7">
+                    <!-- icon -->
+                    <div>
+                        <i class="fa-solid fa-star text-[#FFC850] text-3xl"></i>
+                    </div>
+                    <!-- card texts -->
+                    <div>
+                        <h3 class="text-2xl md:text-3xl font-extrabold dark-1">5.00</h3>
+                        <p class="dark-3 text-sm md:text-base">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+    </main>
 </body>
 
 </html>
